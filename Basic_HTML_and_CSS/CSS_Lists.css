@@ -1,5 +1,9 @@
 ol {
 	list-style-type: upper-roman;
+	border: 1px solid silver;
+	background-color: #b3ccff;
+	color: white;
+	text-shadow: 1px 1px #ffaa00
 }
 
 ul {

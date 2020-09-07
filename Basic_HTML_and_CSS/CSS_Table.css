@@ -1,9 +1,8 @@
-<link rel="stylesheet" type="text/css" href="CSS_table.css">
 table {
 	border: 1px solid silver;
 }
 td:hover {
-	background-color: yellow;
+	background-color: Yellow;
 	color: black;
 }
 tr, th {
