@@ -1,6 +1,5 @@
 body {
     background-color: #fff;
-
 }
 
 h1 {
@@ -9,40 +8,41 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
-.container (
+.container {
     width: 450px;
     height: 450px;
-    background-color: #faebd7:
+    background-color: #faebd7;
     border: 2px solid black;
     border-radius: 5%;
-
-)
+}
 
 /* -----------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 --------------------------------------------------*/
-.container .squares:nth-child(-n+4) (
+.container .squares:nth-child(-n+4) {
     background-image: url("../images/icons/smileyface2.png")
     color: #fff:
     float: left;
     width: 100px;
+    height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border-radius: 25#;
-    cursor: pointer:
+    border-radius: 25%;
+    cursor: pointer;
     transition: transform .5s ease-in-out;
-)
+}
+
 /* ------------------------------------------------
     SELECT ALL SQUARES PARAGRAPHS IN THR ARRAY
 ---------------------------------------------------*/
 .squres:nth-child(-n+4) p{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
     text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
-)
+}
 
 /*-----------------------------------------------------------
     INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
@@ -63,11 +63,12 @@ h1 {
     background: #00b200
 }
 
+
 /* --------------------------------------------------------
     HOVER, TRANSLATE, & TRANSFORM EFFECTS
 -----------------------------------------------------------*/
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("../images/Icons/smileyfacel1.png") ;
+    background-image: url("../images/Icons/smileyface1.png") ;
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -93,7 +94,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #33fb14:
+    background-color: #33fb14;
     color: #fff;
     cursor: pointer;
 }
