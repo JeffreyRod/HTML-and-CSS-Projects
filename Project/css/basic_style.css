@@ -8,7 +8,7 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
-.container {
+.Container {
     width: 450px;
     height: 450px;
     background-color: #faebd7;
@@ -19,9 +19,9 @@ h1 {
 /* -----------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 --------------------------------------------------*/
-.container .squares:nth-child(-n+4) {
-    background-image: url("../images/icons/smileyface2.png")
-    color: #fff:
+.Container .squares:nth-child(-n+4) {
+    background-image: url("./images/icons/smileyface2.png");
+    color: #fff;
     float: left;
     width: 100px;
     height: 100px;
@@ -56,24 +56,24 @@ h1 {
 }
 
 .squares:nth-child(3) {
-    background: #ae163e;
+    background: #0056b8;
 }
 
 .squares:nth-child(4) {
-    background: #00b200
+    background: #00b200;
 }
 
 
 /* --------------------------------------------------------
     HOVER, TRANSLATE, & TRANSFORM EFFECTS
 -----------------------------------------------------------*/
-.container .squares:nth-child(-n+4):hover {
-    background-image: url("../images/Icons/smileyface1.png") ;
+.Container .squares:nth-child(-n+4):hover {
+    background-image: url("./images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
-    animation-timinig-function: cubic-bezier(2.5,.2,.3,2);
+    animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }
 
 .squares:nth-child(1):hover {
@@ -81,22 +81,16 @@ h1 {
 }
 
 .squares:nth-child(2) :hover {
-    background: #d861af;
+    background: #ab3fdd;
 }
 
 .squares:nth-child(3) :hover {
-    bacjground: #77b800;
+    background: #0056b8;
 }
 
 
 .squares:nth-child(4):hover {
     background: #77b800;
-}
-
-.button:hover {
-    background-color: #33fb14;
-    color: #fff;
-    cursor: pointer;
 }
 
 /* ---------------------------------------------------------
@@ -105,9 +99,9 @@ h1 {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px) ;
-        background-image: url("../images/Icons/smileyfacel.png")
+        background-image: url("./images/icons/smileyface1.png");
     }
     50% {
-        transform: translateY(330px) ;
+        transform: translateY(330px);
     }
 }
