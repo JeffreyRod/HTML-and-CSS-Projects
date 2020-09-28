@@ -302,7 +302,7 @@ section {
     font-weight: 600;
     position: relative;
     display: inline;
-    float: right;  
+    float: right; 
 }
 
 .terms:hover {
@@ -373,4 +373,4 @@ section {
     .container {
         width: 1170px;
     }
-}
+} 
