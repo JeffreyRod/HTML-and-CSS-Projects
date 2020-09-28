@@ -31,7 +31,7 @@ MENU SECTION ANIMATION
 }
 
 .menu li:hover {
-    color: #ff0000;
+    color: #ff0000; 
     background-color: rgba(100,65,0,.3);
 }
 
