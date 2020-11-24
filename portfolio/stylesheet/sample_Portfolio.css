@@ -96,7 +96,7 @@ body {
 /* Heading 1 elements */
 h1 {
 	text-transform: uppercase; /* We are capitalizing our headings */
-	font-family: "Trebuchet MS", Optima; 
+	font-family: 'Yellowtail', cursive;
 	text-align: center;
 	margin-top: 3%; /* We are adding a small margin above the headings */
 	color: #1a1a1a;
