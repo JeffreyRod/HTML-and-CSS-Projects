@@ -40,7 +40,7 @@
 					 <!-- PHOTO-CONTAINER 1 -->
 					 <div class="photo-container">
 						 <div class="photo">
-							 <img class="demo" src="./images/Thumb/thumbnail_1.png" alt=""> 
+							 <img src="./images/Thumb/thumbnail_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"> 
 							 <div class="photo-overlay">
 								 <h3 class="white-head">Click to Enlarge</h3>
 								 <p>We have several space launches departing daily, book your flight today!</p>
@@ -53,7 +53,7 @@
 					<!-- PHOTO-CONTAINER 2 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_2.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_2.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -65,7 +65,7 @@
 				   <!-- PHOTO-CONTAINER 3 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_3.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_3.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -77,7 +77,7 @@
 				   <!-- PHOTO-CONTAINER 4 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_4.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_4.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -89,7 +89,7 @@
 				   <!-- PHOTO-CONTAINER 5 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_5.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_5.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -101,7 +101,7 @@
 				   <!-- PHOTO-CONTAINER 6 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_6.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_6.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -113,7 +113,7 @@
 				   <!-- PHOTO-CONTAINER 7 --> 
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_7.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_7.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -125,7 +125,7 @@
 				   <!-- PHOTO-CONTAINER 8 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_8.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_8.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -137,7 +137,7 @@
 				   <!-- PHOTO-CONTAINER 9 -->
 					 <div class="photo-container">
 						<div class="photo">
-							<img class="demo" src="./images/Thumb/thumbnail_9.png" alt=""> 
+							<img src="./images/Thumb/thumbnail_9.png" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div class="photo-overlay">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -150,6 +150,41 @@
 			</div>
 		</section>
 		<!-- END GALLERY -->
+
+		<!--Modal-->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="./images/Thumb/thumbnail_1.png" style="width: 100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="./images/Thumb/thumbnail_2.png" style="width: 100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="./images/Thumb/thumbnail_3.png" style="width: 100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="./images/Thumb/thumbnail_4.png" style="width: 100%;">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 / 5</div>
+					<img src="./images/Thumb/thumbnail_5.png" style="width: 100%;">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+		</div>
 
 		<!-- RSVP -->
 		<section id="contact">
