@@ -13,11 +13,11 @@ showSlides(slideIndex);
 
 //Next/previous controls
 function plusSlides(n) {
-    showSlides(lideIndex += n);
+    showSlides(slideIndex += n);
 }
 
 //Thumbnial image controls
-function currentSlide(n) {
+function currentSlides(n) {
     showSlides(slideIndex = n);
 }
 
