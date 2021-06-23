@@ -9,7 +9,7 @@ function closeModal() {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+    showSlides(slideIndex);
 
 //Next/previous controls
 function plusSlides(n) {
