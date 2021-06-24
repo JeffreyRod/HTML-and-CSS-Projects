@@ -92,7 +92,10 @@ MENU SECTION ANIMATION
         border-radius: 10px;
         cursor: pointer;
     }
-
+.column {
+    float: left;
+    width: 25%;
+}
     /* The Modal (background) */
 .modal {
     display: none;

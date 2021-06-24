@@ -5,7 +5,7 @@
 		<title>The space station | Resort </title>
 		<link rel="stylesheet" href="./css/shared.css">
 		<link rel="stylesheet" href="./css/animations.css">
-		<script src="JS/main.js"></script>
+		<script src="JS/main.js" defer></script>
 	</head>
 	<body>
 		
@@ -62,7 +62,7 @@
 				   </div>
 				   <!-- END PHOTO-CONTAINER 2 -->
 
-				   <!-- PHOTO-CONTAINER 3 -->
+				   <!-- PHOTO-CONTAINER 3 --> 
 					 <div class="photo-container" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 						<div class="photo">
 							<img src="./images/Thumb/thumbnail_3.png" style="width: 100%">
@@ -155,89 +155,121 @@
 			<span class="close cursor" onclick="closeModal()">&times;</span>
 			<div class="modal-content">
 
-		<div class="mySlides">
-			<div class="numbertext">1 / 9</div>
-			<img src="./images/Thumb/thumbnail_1.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">1 / 9</div>
+					<img src="./images/Thumb/thumbnail_1.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">2 / 9</div>
-			<img src="./images/Thumb/thumbnail_2.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">2 / 9</div>
+					<img src="./images/Thumb/thumbnail_2.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">3 / 9</div>
-			<img src="./images/Thumb/thumbnail_3.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">3 / 9</div>
+					<img src="./images/Thumb/thumbnail_3.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">4 / 9</div>
-			<img src="./images/Thumb/thumbnail_4.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">4 / 9</div>
+					<img src="./images/Thumb/thumbnail_4.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">5 / 9</div>
-			<img src="./images/Thumb/thumbnail_5.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">5 / 9</div>
+					<img src="./images/Thumb/thumbnail_5.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">6 / 9</div>
-			<img src="./images/Thumb/thumbnail_6.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">6 / 9</div>
+					<img src="./images/Thumb/thumbnail_6.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">7 / 9</div>
-			<img src="./images/Thumb/thumbnail_7.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">7 / 9</div>
+					<img src="./images/Thumb/thumbnail_7.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">8 / 9</div>
-			<img src="./images/Thumb/thumbnail_8.png" style="width:100%;">
-		</div>
+				<div class="mySlides">
+					<div class="numbertext">8 / 9</div>
+					<img src="./images/Thumb/thumbnail_8.png" style="width:100%;">
+				</div>
 
-		<div class="mySlides">
-			<div class="numbertext">9 / 9</div>
-			<img src="./images/Thumb/thumbnail_9.png" style="width:100%;">
-		</div>
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		
-	</div>
-    </div>
+				<div class="mySlides">
+					<div class="numbertext">9 / 9</div>
+					<img src="./images/Thumb/thumbnail_9.png" style="width:100%;">
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			  <div class="caption-container">
+				  <p id="caption"></p> 
+			  </div>
+
+			  
+
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_1.png" style="width:100%" onclick="currentSlide(1)" alt="Saturn">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_2.png" style="width:100%" onclick="currentSlide(2)" alt="Palm trees, stars">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_3.png" style="width:100%" onclick="currentSlide(3)" alt="Sun , planet">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_4.png" style="width:100%" onclick="currentSlide(4)" alt="Galaxy">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_5.png" style="width:100%" onclick="currentSlide(5)" alt="Galaxy">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_6.png" style="width:100%" onclick="currentSlide(6)" alt="Galaxy">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_7.png" style="width:100%" onclick="currentSlide(7)" alt="Astronaut">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_8.png" style="width:100%" onclick="currentSlide(8)" alt="Galaxy">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/Thumb/thumbnail_9.png" style="width:100%" onclick="currentSlide(9)" alt="Earth">
+				</div>
+			</div>
+    	</div>
+
 		<!--End Modal-->
-
 
 		<!-- END GALLERY -->
 
 		<!-- RSVP -->
 		<section id="contact">
 			<div class="container">
-				 <div class="heading-padding">
+				    <div class="heading-padding">
 					 <h1 class="heading-padding">Reservations"</h1>
-					 <div class="reservation">
+					    <div class="reservation">
 						 <h2><span>Your adventures is just around the moon.</span>
 							<br/>Reserve your flight today!
-						</h2>
-						<p class="rsvp-text">
+						 </h2>
+						 <p class="rsvp-text">
 							Please provide us with your basic contact information.
-						</p>
-						<div class="form-rsvp">
-							<form action="" method="post">
-								<input class="rsvp" type="text" value="" placeholder="First Name">
-								<input class="rsvp" type="text" value="" placeholder="Last Name">
-								<input class="rsvp" type="text" value="" placeholder="Email Address">
-								<input class="rsvp" type="text" value="" placeholder="Phone number">
-								<div class="form-spacer">
-									<label class="terms">Terms and conditions</label>
-								</div>
-								<div class="submit">
-									<input type="submit" value="submit">
-							    </div>
-							</form> 
+						 </p>
+						 <div class="form-rsvp">
+								<form action="" method="post">
+									<input class="rsvp" type="text" value="" placeholder="First Name">
+									<input class="rsvp" type="text" value="" placeholder="Last Name">
+									<input class="rsvp" type="text" value="" placeholder="Email Address">
+									<input class="rsvp" type="text" value="" placeholder="Phone number">
+									<div class="form-spacer">
+										<label class="terms">Terms and conditions</label>
+									</div>
+									<div class="submit">
+										<input type="submit" value="submit">
+							        </div>
+							    </form> 
+						    </div>
 						</div>
-						</div>
-					 </div>
-
+					</div>
 				 </div>
 			</div>
 		</section>
